@@ -1,0 +1,28 @@
+{
+  "appId": "com.spaceparanoid.uselessrobot",
+  "productName": "UselessRobot",
+  "copyright": "Copyright © Company",
+  "directories": {
+    "output": "release/"
+  },
+  "win": {
+    "icon": "build/icon.ico",
+    "publisherName": "Spaceparanoid",
+    "target": [
+      "nsis",
+      "zip",
+      "appx"
+    ]
+  },
+  "appx": {
+    "applicationId": "Spaceparanoid.UselessRobot",
+    "identityName": "10975Spaceparanoid.UselessRobot",
+    "publisher": "CN=BA43DAD9-3E15-46A5-8498-A321DC194C58",
+    "publisherDisplayName": "Spaceparanoid"
+  },
+  "publish": {
+    "provider": "s3",
+    "bucket": "useless-updates",
+    "region": "ca-central-1"
+  }
+}
