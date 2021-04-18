@@ -1,5 +1,6 @@
 * {
   color: #252525;
+  user-select: none;
 }
 
 html {
@@ -8,11 +9,6 @@ html {
 
 html,
 body {
-  display: flex;
-  flex: 1;
-}
-
-:global #root {
   display: flex;
   flex: 1;
 }

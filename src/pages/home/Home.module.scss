@@ -69,7 +69,7 @@
   bottom: 0;
   width: 500px;
   height: 250px;
-  background-image: linear-gradient(rgb(0, 100, 100), rgb(0, 65, 65));
+  background-image: linear-gradient(#006464, #004141);
   border-radius: 15px 15px 0 0;
 }
 
@@ -96,8 +96,8 @@
   right: 25px;
   bottom: 15px;
   left: 25px;
-  background: rgb(29, 28, 28);
-  background-image: radial-gradient(ellipse, rgb(5 50 30) 0%, rgb(5 5 5) 90%);
+  background: #1d1c1c;
+  background-image: radial-gradient(ellipse, #05321e 0%, #050505 90%);
   border-radius: 40%;
   box-shadow: 0 0 20px 0 rgb(5 50 30);
 }
@@ -122,7 +122,7 @@
   position: absolute;
   width: 60px;
   height: 30px;
-  background: blue;
+  background: #00f;
   border-radius: 30px 30px 0 0;
 }
 
@@ -132,7 +132,7 @@
   bottom: 50px;
   width: 60px;
   height: 30px;
-  border: 5px solid blue;
+  border: 5px solid #00f;
   border-radius: 0 0 30px 30px;
   transform: translate(50%, 0);
 }

@@ -17,6 +17,13 @@ module.exports = {
         use: ["@svgr/webpack"],
       },
       {
+        test: /\.(xml|fnt|png|jpe?g|gif)$/i,
+        loader: "file-loader",
+        options: {
+          publicPath: "assets",
+        },
+      },
+      {
         test: /\.s[ac]ss$/i,
         use: [
           "style-loader",
